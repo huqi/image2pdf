@@ -7,6 +7,8 @@ name = "pypi"
 pyqt5 = "*"
 fpdf = "*"
 pillow = "*"
+pyqt5-tools = "*"
+natsort = "*"
 
 [dev-packages]
 autopep8 = "*"
