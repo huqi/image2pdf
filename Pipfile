@@ -9,6 +9,7 @@ fpdf = "*"
 pillow = "*"
 pyqt5-tools = "*"
 natsort = "*"
+pyinstaller = "*"
 
 [dev-packages]
 autopep8 = "*"
