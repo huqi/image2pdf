@@ -11,6 +11,11 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
 
 from i2p_ui import Ui_Form
 
+import ctypes
+
+ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("myappid")
+
+
 A3_SIZE = [297, 420]
 A4_SIZE = [210, 297]
 A5_SIZE = [148, 210]
