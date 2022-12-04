@@ -24,7 +24,7 @@ FORMAT_SIZE = {'A3': A3_SIZE, 'A4': A4_SIZE, 'A5': A5_SIZE}
 MAIN_FRAME_SIZE = {'WIDTH': 300, 'HEIGHT': 300}
 
 
-class MyMainForm(QMainWindow, Ui_Form):
+class MyMainForm(QWidget, Ui_Form):
     '''
     窗体
     '''
