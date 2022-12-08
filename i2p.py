@@ -7,7 +7,7 @@ from fpdf import FPDF
 from PIL import Image
 from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.QtGui import QGuiApplication, QIcon, QPixmap
-from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox
+from PyQt5.QtWidgets import QApplication, QMessageBox, QWidget
 
 from i2p_ui import Ui_Form
 
